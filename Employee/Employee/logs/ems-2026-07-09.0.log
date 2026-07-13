@@ -1,0 +1,391 @@
+2026-07-09 09:38:26.302 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15h18s355ms135탎700ns).
+2026-07-09 10:58:53.690 [http-nio-9090-exec-1] INFO  API_LOGGER - 
+---------------------------- API CALL LOG ----------------------------
+API Name       : POST
+API URL        : http://192.168.24.125:9090/Employee-0.0.1-SNAPSHOT/api/admin/login
+Request Body   : {
+  "username" : "admin",
+  "password" : "admin1234"
+}
+Response Body  : {
+  "statusCode" : 200,
+  "message" : "Login Successful",
+  "data" : {
+    "adminId" : 1,
+    "username" : "admin"
+  }
+}
+------------------------------------------------------------------------
+2026-07-09 10:59:40.320 [http-nio-9090-exec-5] INFO  API_LOGGER - 
+---------------------------- API CALL LOG ----------------------------
+API Name       : GET
+API URL        : http://192.168.24.125:9090/Employee-0.0.1-SNAPSHOT/api/employees/12
+Request Body   : N/A
+Response Body  : {
+  "statusCode" : 200,
+  "message" : "Employee Found By Id",
+  "data" : {
+    "eid" : 12,
+    "ename" : "johnwick",
+    "email" : "johnwick@gmail.com",
+    "salary" : 50000.0,
+    "departmentId" : 1,
+    "departmentName" : "AI"
+  }
+}
+------------------------------------------------------------------------
+2026-07-09 11:00:51.913 [http-nio-9090-exec-4] INFO  API_LOGGER - 
+---------------------------- API CALL LOG ----------------------------
+API Name       : POST
+API URL        : http://192.168.24.125:9090/Employee-0.0.1-SNAPSHOT/api/admin/login
+Request Body   : {
+  "username" : "admin",
+  "password" : "admin1234"
+}
+Response Body  : {
+  "statusCode" : 200,
+  "message" : "Login Successful",
+  "data" : {
+    "adminId" : 1,
+    "username" : "admin"
+  }
+}
+------------------------------------------------------------------------
+2026-07-09 11:01:12.608 [http-nio-9090-exec-8] INFO  API_LOGGER - 
+---------------------------- API CALL LOG ----------------------------
+API Name       : POST
+API URL        : http://192.168.24.125:9090/Employee-0.0.1-SNAPSHOT/api/admin/login
+Request Body   : {
+  "username" : "amdin",
+  "password" : "admin1234"
+}
+Response Body  : {
+  "statusCode" : 404,
+  "message" : "Invalid Username",
+  "data" : null
+}
+------------------------------------------------------------------------
+2026-07-09 11:01:27.146 [http-nio-9090-exec-3] INFO  API_LOGGER - 
+---------------------------- API CALL LOG ----------------------------
+API Name       : POST
+API URL        : http://192.168.24.125:9090/Employee-0.0.1-SNAPSHOT/api/admin/login
+Request Body   : {
+  "username" : "admin",
+  "password" : "admin1234"
+}
+Response Body  : {
+  "statusCode" : 200,
+  "message" : "Login Successful",
+  "data" : {
+    "adminId" : 1,
+    "username" : "admin"
+  }
+}
+------------------------------------------------------------------------
+2026-07-09 12:00:21.222 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m1s337ms554탎500ns).
+2026-07-09 13:12:18.390 [Catalina-utility-2] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-09 13:12:19.327 [Catalina-utility-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-07-09 13:12:19.495 [Catalina-utility-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-07-09 13:12:37.396 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2026-07-09 13:12:37.417 [Catalina-utility-2] INFO  com.example.EMS.EMSApplication - Starting EMSApplication v0.0.1-SNAPSHOT using Java 17.0.12 on DESKTOP-DDBMUUC with PID 12080 (C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\Employee-0.0.1-SNAPSHOT\WEB-INF\classes started by LOCAL SERVICE in C:\Program Files\Apache Software Foundation\Tomcat 9.0)
+2026-07-09 13:12:37.419 [Catalina-utility-2] INFO  com.example.EMS.EMSApplication - No active profile set, falling back to 1 default profile: "default"
+2026-07-09 13:12:40.430 [Catalina-utility-2] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-09 13:12:40.541 [Catalina-utility-2] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 0 JPA repository interfaces.
+2026-07-09 13:12:42.668 [Catalina-utility-2] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5142 ms
+2026-07-09 13:12:43.939 [Catalina-utility-2] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-09 13:12:44.370 [Catalina-utility-2] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2026-07-09 13:12:45.151 [Catalina-utility-2] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-07-09 13:12:45.738 [Catalina-utility-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-07-09 13:12:46.668 [Catalina-utility-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-07-09 13:12:46.735 [Catalina-utility-2] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2026-07-09 13:13:05.095 [Catalina-utility-2] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-07-09 13:13:05.172 [Catalina-utility-2] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-09 13:13:06.303 [Catalina-utility-2] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: a891c125-2c46-417f-93e2-5fd1b9c74ca5
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-07-09 13:13:08.081 [Catalina-utility-2] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@65682354, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50f95ccf, org.springframework.security.web.context.SecurityContextPersistenceFilter@48c1eaca, org.springframework.security.web.header.HeaderWriterFilter@56dd6a6f, org.springframework.security.web.authentication.logout.LogoutFilter@5d5dad65, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4997a1f6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e49d17, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36d62b7f, org.springframework.security.web.session.SessionManagementFilter@227398c3, org.springframework.security.web.access.ExceptionTranslationFilter@7bef4d3a, org.springframework.security.web.access.intercept.AuthorizationFilter@4b5fcf71]
+2026-07-09 13:13:08.619 [Catalina-utility-2] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-09 13:13:11.620 [Catalina-utility-2] INFO  com.example.EMS.EMSApplication - Started EMSApplication in 36.053 seconds (JVM running for 71556.223)
+2026-07-09 13:13:11.867 [Thread-3] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-09 13:13:11.881 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-07-09 13:13:11.891 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-07-09 13:13:32.863 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2026-07-09 13:13:32.926 [main] INFO  com.example.EMS.EMSApplication - Starting EMSApplication v0.0.1-SNAPSHOT using Java 17.0.12 on DESKTOP-DDBMUUC with PID 15116 (C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\Employee-0.0.1-SNAPSHOT\WEB-INF\classes started by LOCAL SERVICE in C:\Program Files\Apache Software Foundation\Tomcat 9.0)
+2026-07-09 13:13:32.930 [main] INFO  com.example.EMS.EMSApplication - No active profile set, falling back to 1 default profile: "default"
+2026-07-09 13:13:38.590 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-09 13:13:38.664 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 0 JPA repository interfaces.
+2026-07-09 13:13:40.520 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7400 ms
+2026-07-09 13:13:42.645 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-09 13:13:42.933 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2026-07-09 13:13:43.768 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-07-09 13:13:44.474 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-07-09 13:13:45.674 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-07-09 13:13:45.773 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2026-07-09 13:13:54.695 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-07-09 13:13:54.742 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-09 13:13:56.062 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: a8df8b8e-7896-45f7-a8c8-0b7dd4e97388
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-07-09 13:13:56.899 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3a2486d9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@198f92c5, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e792043, org.springframework.security.web.header.HeaderWriterFilter@7f8510d3, org.springframework.security.web.authentication.logout.LogoutFilter@2e044892, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52365ba1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@59aba9b3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c1ddea3, org.springframework.security.web.session.SessionManagementFilter@4f3cd332, org.springframework.security.web.access.ExceptionTranslationFilter@4b3f178f, org.springframework.security.web.access.intercept.AuthorizationFilter@179683c3]
+2026-07-09 13:13:57.216 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-09 13:14:00.513 [main] INFO  com.example.EMS.EMSApplication - Started EMSApplication in 29.75 seconds (JVM running for 47.562)
+2026-07-09 13:31:59.513 [http-nio-9090-exec-7] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-07-09 13:32:00.005 [http-nio-9090-exec-7] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 132 ms
+2026-07-09 13:32:00.803 [http-nio-9090-exec-7] INFO  API_LOGGER - 
+---------------------------- API CALL LOG ----------------------------
+API Name       : GET
+API URL        : http://localhost:9090/Employee-0.0.1-SNAPSHOT/
+Request Body   : N/A
+Response Body  : N/A
+------------------------------------------------------------------------
+2026-07-09 13:33:54.063 [http-nio-9090-exec-4] INFO  API_LOGGER - 
+---------------------------- API CALL LOG ----------------------------
+API Name       : GET
+API URL        : http://192.168.24.125:9090/Employee-0.0.1-SNAPSHOT/
+Request Body   : N/A
+Response Body  : N/A
+------------------------------------------------------------------------
+2026-07-09 13:34:08.156 [http-nio-9090-exec-2] INFO  API_LOGGER - 
+---------------------------- API CALL LOG ----------------------------
+API Name       : GET
+API URL        : http://192.168.24.125:9090/Employee-0.0.1-SNAPSHOT/api/employees
+Request Body   : N/A
+Response Body  : {
+  "statusCode" : 200,
+  "message" : "Employee List",
+  "data" : [ {
+    "eid" : 9,
+    "ename" : "tarksya",
+    "email" : "tar@gmail.com",
+    "salary" : 50000.0,
+    "departmentId" : 1,
+    "departmentName" : "AI"
+  }, {
+    "eid" : 10,
+    "ename" : "lakshmanan",
+    "email" : "lak@gmail.com",
+    "salary" : 50000.0,
+    "departmentId" : 1,
+    "departmentName" : "AI"
+  }, {
+    "eid" : 12,
+    "ename" : "johnwick",
+    "email" : "johnwick@gmail.com",
+    "salary" : 50000.0,
+    "departmentId" : 1,
+    "departmentName" : "AI"
+  }, {
+    "eid" : 15,
+    "ename" : "ram",
+    "email" : "ram@gmail.com",
+    "salary" : 50000.0,
+    "departmentId" : 1,
+    "departmentName" : "AI"
+  }, {
+    "eid" : 16,
+    "ename" : "gokul",
+    "email" : "gokul@gmail.com",
+    "salary" : 50000.0,
+    "departmentId" : 1,
+    "departmentName" : "AI"
+  }, {
+    "eid" : 19,
+    "ename" : "Lakshmanan",
+    "email" : "lakshmananmeyyappan13@gmail.com",
+    "salary" : 40000.0,
+    "departmentId" : 1,
+    "departmentName" : "AI"
+  }, {
+    "eid" : 21,
+    "ename" : "Lakshmanan",
+    "email" : "lakshmanmeyyappan13@gmail.com",
+    "salary" : 50000.0,
+    "departmentId" : 1,
+    "departmentName" : "AI"
+  }, {
+    "eid" : 26,
+    "ename" : "John12",
+    "email" : "john1234@gmail.com",
+    "salary" : 50000.0,
+    "departmentId" : 1,
+    "departmentName" : "AI"
+  }, {
+    "eid" : 27,
+    "ename" : "John12",
+    "email" : "john124@gmail.com",
+    "salary" : 50000.0,
+    "departmentId" : 1,
+    "departmentName" : "AI"
+  }, {
+    "eid" : 28,
+    "ename" : "yogesh",
+    "email" : "yogesh@gmail.com",
+    "salary" : 50000.0,
+    "departmentId" : 1,
+    "departmentName" : "AI"
+  }, {
+    "eid" : 29,
+    "ename" : "sidhu",
+    "email" : "sidhu@gmail.com",
+    "salary" : 100000.0,
+    "departmentId" : 5,
+    "departmentName" : "IIT"
+  }, {
+    "eid" : 32,
+    "ename" : "Test",
+    "email" : "test@gmail.com",
+    "salary" : 50000.0,
+    "departmentId" : 1,
+    "departmentName" : "AI"
+  }, {
+    "eid" : 33,
+    "ename" : "siva",
+    "email" : "siva@gmail.com",
+    "salary" : 100000.0,
+    "departmentId" : 1,
+    "departmentName" : "AI"
+  }, {
+    "eid" : 41,
+    "ename" : "siva",
+    "email" : "siva14@gmail.com",
+    "salary" : 1000000.0,
+    "departmentId" : 11,
+    "departmentName" : "Shopping"
+  } ]
+}
+------------------------------------------------------------------------
+2026-07-09 13:34:20.463 [http-nio-9090-exec-5] INFO  API_LOGGER - 
+---------------------------- API CALL LOG ----------------------------
+API Name       : GET
+API URL        : http://192.168.24.125:9090/Employee-0.0.1-SNAPSHOT/api/departments
+Request Body   : N/A
+Response Body  : {
+  "statusCode" : 200,
+  "message" : "All Department List",
+  "data" : [ {
+    "did" : 1,
+    "dname" : "AI"
+  }, {
+    "did" : 5,
+    "dname" : "IIT"
+  }, {
+    "did" : 11,
+    "dname" : "Shopping"
+  } ]
+}
+------------------------------------------------------------------------
+2026-07-09 14:37:13.994 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m24s554ms802탎100ns).
+2026-07-09 16:30:19.472 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2026-07-09 16:30:19.478 [restartedMain] INFO  com.example.EMS.EMSApplication - Starting EMSApplication using Java 17.0.12 on DESKTOP-DDBMUUC with PID 11776 (C:\Users\User\Desktop\OneDrive\Desktop\agnoshin\New Updated Project\Employee\Employee\target\classes started by User in C:\Users\User\Desktop\OneDrive\Desktop\agnoshin\New Updated Project\Employee\Employee)
+2026-07-09 16:30:19.479 [restartedMain] INFO  com.example.EMS.EMSApplication - No active profile set, falling back to 1 default profile: "default"
+2026-07-09 16:30:19.553 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-09 16:30:19.553 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-09 16:30:20.687 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-09 16:30:20.726 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 JPA repository interfaces.
+2026-07-09 16:30:21.691 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2026-07-09 16:30:21.701 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-07-09 16:30:21.703 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-07-09 16:30:21.704 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-07-09 16:30:21.827 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-07-09 16:30:21.827 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2272 ms
+2026-07-09 16:30:22.039 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-09 16:30:22.106 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2026-07-09 16:30:22.259 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-07-09 16:30:22.372 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-07-09 16:30:23.398 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-07-09 16:30:23.439 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2026-07-09 16:30:28.694 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-07-09 16:30:28.816 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-09 16:30:31.577 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 8c01b449-dc6e-4041-992d-162755adeca6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-07-09 16:30:31.700 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1710b7ab, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b1ea813, org.springframework.security.web.context.SecurityContextPersistenceFilter@22d4eada, org.springframework.security.web.header.HeaderWriterFilter@c1a87cb, org.springframework.security.web.authentication.logout.LogoutFilter@157a95a6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b7bc78b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50324f9e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2567346b, org.springframework.security.web.session.SessionManagementFilter@7d1f34fb, org.springframework.security.web.access.ExceptionTranslationFilter@5c7ba7ad, org.springframework.security.web.access.intercept.AuthorizationFilter@2863588e]
+2026-07-09 16:30:31.761 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-09 16:30:32.182 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-07-09 16:30:32.218 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-07-09 16:30:32.257 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2026-07-09 16:30:32.273 [restartedMain] INFO  com.example.EMS.EMSApplication - Started EMSApplication in 13.477 seconds (JVM running for 14.942)
+2026-07-09 16:30:50.311 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-09 16:30:50.312 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-07-09 16:30:50.312 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-07-09 16:30:51.011 [http-nio-8080-exec-2] INFO  API_LOGGER - 
+---------------------------- API CALL LOG ----------------------------
+API Name       : POST
+API URL        : http://localhost:8080/api/employees
+Request Body   : {
+  "ename" : "Sai",
+  "email" : "sai13@gmail.com",
+  "password" : "1234sai",
+  "salary" : 40000,
+  "departmentId" : 1
+}
+Response Body  : {
+  "statusCode" : 201,
+  "message" : "Employee Added Successfully",
+  "data" : {
+    "eid" : 42,
+    "ename" : "Sai",
+    "email" : "sai13@gmail.com",
+    "salary" : 40000.0,
+    "departmentId" : 1,
+    "departmentName" : "AI"
+  }
+}
+------------------------------------------------------------------------
+2026-07-09 16:32:10.306 [http-nio-8080-exec-6] INFO  API_LOGGER - 
+---------------------------- API CALL LOG ----------------------------
+API Name       : POST
+API URL        : http://localhost:8080/api/employees/login
+Request Body   : {
+  "email" : "sai13@gmail.com",
+  "password" : "1234sai"
+}
+Response Body  : {
+  "eid" : 42,
+  "ename" : "Sai",
+  "email" : "sai13@gmail.com",
+  "message" : "Login Successful"
+}
+------------------------------------------------------------------------
+2026-07-09 16:43:58.832 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-07-09 16:43:59.075 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2026-07-09 16:43:59.079 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-07-09 16:43:59.113 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2026-07-09 16:43:59.173 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2026-07-09 16:43:59.203 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2026-07-09 16:43:59.268 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-09 16:43:59.344 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-07-09 16:43:59.377 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-07-09 17:06:08.799 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m35s280ms783탎700ns).
+2026-07-09 17:46:14.689 [http-nio-9090-exec-10] INFO  API_LOGGER - 
+---------------------------- API CALL LOG ----------------------------
+API Name       : GET
+API URL        : http://192.168.24.125:9090/Employee-0.0.1-SNAPSHOT/api/departments
+Request Body   : N/A
+Response Body  : {
+  "statusCode" : 200,
+  "message" : "All Department List",
+  "data" : [ {
+    "did" : 1,
+    "dname" : "AI"
+  }, {
+    "did" : 5,
+    "dname" : "IIT"
+  }, {
+    "did" : 11,
+    "dname" : "Shopping"
+  } ]
+}
+------------------------------------------------------------------------
+2026-07-09 18:30:40.663 [Thread-3] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-09 18:30:42.030 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-07-09 18:30:42.181 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
